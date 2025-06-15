@@ -4,6 +4,7 @@ import Logo from '../../images/logo.jpg';
 
 const { Title } = Typography;
 
+
 function Contact() {
 
     const onFinish = (values) => {
