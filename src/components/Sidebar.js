@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { Layout, Menu, Drawer, Button } from 'antd';
 import {
   HomeOutlined,
-  DollarOutlined,
   PhoneOutlined,
   MenuOutlined,
   EnvironmentFilled
@@ -19,12 +18,6 @@ const menuItems = [
     label: <Link to="/">Home</Link>,
     path: '/',
   },
-//   {
-//     key: 'price-cards',
-//     icon: <DollarOutlined  style={{ color: '#d4af37' }}/>,
-//     label: <Link to="/prices">Prices</Link>,
-//     path: '/prices',
-//   },
   {
     key: 'contact us',
     icon: <PhoneOutlined  style={{ color: '#d4af37' }} />,
@@ -39,7 +32,6 @@ const menuItems = [
   },
 ];
 
-// Map path to key for accurate selection
 const pathKeyMap = {
   '/': 'home',
   '/prices': 'price-cards',
@@ -55,7 +47,7 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Desktop Sidebar */}
+   
       <Sider
         width={260}
         breakpoint="lg"
@@ -102,7 +94,7 @@ const Sidebar = () => {
         />
       </Sider>
 
-      {/* Mobile Hamburger Button */}
+  
       <Button
         type="text"
         icon={<MenuOutlined style={{ fontSize: 28, color: '#C5A113' }} />}

@@ -5,7 +5,6 @@ import Home from './pages/home/Home';
 import PriceCards from './pages/price-cards/PriceCards';
 import Contact from './pages/contact/Contact';
 import './App.css';
-import logo from './logo.svg';
 import AddressDetails from './pages/addressDetails/AddressDetails';
 
 function App() {

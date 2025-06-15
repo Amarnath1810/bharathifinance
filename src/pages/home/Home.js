@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Typography, Row, Col, Card } from 'antd';
+import { Button, Typography, Card } from 'antd';
 import { Outlet } from 'react-router-dom';
 import logo  from  '../../images/kiddy.png'
 
